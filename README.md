@@ -1,6 +1,6 @@
 # codesamples
 
-This is a repository with code samples from academic projects.
+This is a repository with code samples from academic projects I've worked on as an undergrad at New Mexico Tech.
 Some notable projects are: 
     * a lisp interpreter written in Java
     * Clones of linux commands like "env" written in C
