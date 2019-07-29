@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+    <name>Mystery Locations</name>
+    <Placemark>
+        <name>Albany, NY, United States</name>
+        <Point>
+            <coordinates>-73.750000,42.666668,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Albuquerque, NM, United States</name>
+        <Point>
+            <coordinates>-106.650002,35.083332,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Amarillo, TX, United States</name>
+        <Point>
+            <coordinates>-101.833336,35.183334,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Anchorage, AK, United States</name>
+        <Point>
+            <coordinates>-149.899994,61.216667,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Atlanta, GA, United States</name>
+        <Point>
+            <coordinates>-84.383331,33.750000,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Austin, TX, United States</name>
+        <Point>
+            <coordinates>-97.733330,30.266666,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Baltimore, MD, United States</name>
+        <Point>
+            <coordinates>-76.633331,39.299999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Barcelona, Spain</name>
+        <Point>
+            <coordinates>2.150000,41.383335,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Beijing, China</name>
+        <Point>
+            <coordinates>116.416664,39.916668,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Belem, Brazil</name>
+        <Point>
+            <coordinates>-48.483334,-1.466667,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Berlin, Germany</name>
+        <Point>
+            <coordinates>13.416667,52.500000,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Birmingham, AL, United States</name>
+        <Point>
+            <coordinates>-86.833336,33.500000,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Bismarck, ND, United States</name>
+        <Point>
+            <coordinates>-100.783333,46.799999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Boise, ID, United States</name>
+        <Point>
+            <coordinates>-116.216667,43.599998,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Boston, MA, United States</name>
+        <Point>
+            <coordinates>-71.083336,42.349998,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Buffalo, NY, United States</name>
+        <Point>
+            <coordinates>-78.833336,42.916668,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Carlsbad, NM, United States</name>
+        <Point>
+            <coordinates>-104.250000,32.433334,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Charleston, SC, United States</name>
+        <Point>
+            <coordinates>-79.933334,32.783333,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Cheyenne, WY, United States</name>
+        <Point>
+            <coordinates>-104.866669,41.150002,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Chicago, IL, United States</name>
+        <Point>
+            <coordinates>-87.616669,41.833332,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Cincinnati, OH, United States</name>
+        <Point>
+            <coordinates>-84.500000,39.133335,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Dallas, TX, United States</name>
+        <Point>
+            <coordinates>-96.766670,32.766666,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Denver, CO, United States</name>
+        <Point>
+            <coordinates>-105.000000,39.750000,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Detroit, MI, United States</name>
+        <Point>
+            <coordinates>83.050003,42.333332,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Flagstaff, AZ, United States</name>
+        <Point>
+            <coordinates>-111.683334,35.216667,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Helena, MT, United States</name>
+        <Point>
+            <coordinates>-112.033333,46.583332,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Honolulu, HI, United States</name>
+        <Point>
+            <coordinates>-157.833328,21.299999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Kansas City, MO, United States</name>
+        <Point>
+            <coordinates>-94.583336,39.099998,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Key West, FL, United States</name>
+        <Point>
+            <coordinates>-81.800003,24.549999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Las Vegas, NV, United States</name>
+        <Point>
+            <coordinates>-115.199997,36.166668,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Los Angeles, CA, United States</name>
+        <Point>
+            <coordinates>-118.250000,34.049999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Memphis, TN, United States</name>
+        <Point>
+            <coordinates>-90.050003,35.150002,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Adelaide, Australia</name>
+        <Point>
+            <coordinates>138.600006,-34.916668,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Auckland, New Zealand</name>
+        <Point>
+            <coordinates>174.750000,-36.866665,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Bangkok, Thailand</name>
+        <Point>
+            <coordinates>100.500000,13.750000,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Miami, FL, United States</name>
+        <Point>
+            <coordinates>-80.199997,25.766666,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Milwaukee, WI, United States</name>
+        <Point>
+            <coordinates>-87.916664,43.033333,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Minneapolis, MN, United States</name>
+        <Point>
+            <coordinates>-93.233330,44.983334,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Mobile, AL, United States</name>
+        <Point>
+            <coordinates>-88.050003,30.700001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Montgomery, AL, United States</name>
+        <Point>
+            <coordinates>-86.300003,32.349998,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Nashville, TN, United States</name>
+        <Point>
+            <coordinates>-86.783333,36.166668,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>New York, NY, United States</name>
+        <Point>
+            <coordinates>-73.966667,40.783333,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Oklahoma City, OK, United States</name>
+        <Point>
+            <coordinates>-97.466667,35.433334,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Philadelphia, PA, United States</name>
+        <Point>
+            <coordinates>-75.166664,39.950001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Phoenix, AZ, United States</name>
+        <Point>
+            <coordinates>-112.066666,33.483334,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Pittsburgh, PA, United States</name>
+        <Point>
+            <coordinates>-79.949997,40.450001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Salt Lake City, UT, United States</name>
+        <Point>
+            <coordinates>-111.900002,40.766666,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>San Diego, CA, United States</name>
+        <Point>
+            <coordinates>-117.166664,32.700001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>San Francisco, CA, United States</name>
+        <Point>
+            <coordinates>-122.433334,37.783333,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>San Juan, Puerto Rico, United States</name>
+        <Point>
+            <coordinates>-66.166664,18.500000,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Santa Fe, NM, United States</name>
+        <Point>
+            <coordinates>-105.949997,35.683334,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Seattle, WA, United States</name>
+        <Point>
+            <coordinates>-122.333336,47.616665,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Springfield, IL, United States</name>
+        <Point>
+            <coordinates>-89.633331,39.799999,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Tampa, FL, United States</name>
+        <Point>
+            <coordinates>-82.449997,27.950001,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Vancouver, Canada</name>
+        <Point>
+            <coordinates>-123.099998,49.216667,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Washington, D.C., United States</name>
+        <Point>
+            <coordinates>-77.033333,38.883335,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Wichita, KS, United States</name>
+        <Point>
+            <coordinates>-97.283333,37.716667,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Athens, Greece</name>
+        <Point>
+            <coordinates>23.716667,37.966667,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Bombay, India</name>
+        <Point>
+            <coordinates>72.800003,19.000000,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Bordeaux, France</name>
+        <Point>
+            <coordinates>-0.516667,44.833332,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Cordoba, Argentina</name>
+        <Point>
+            <coordinates>-64.166664,-31.466667,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Darwin, Australia</name>
+        <Point>
+            <coordinates>130.850006,-12.466666,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Djibouti, Djibouti</name>
+        <Point>
+            <coordinates>43.049999,11.500000,0</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>Durban, South Africa</name>
+        <Point>
+            <coordinates>30.883333,-29.883333,0</coordinates>
+        </Point>
+    </Placemark>
+</Document>
+</kml>

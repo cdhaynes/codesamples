@@ -1,0 +1,34 @@
+Casey Haynes
+1/27/2018
+Lab 11
+
+Purpose:
+
+To implement a dynamically allocated array with the use of "realloc", and to re-
+inforce File I/O concepts introduced in CSE 113.
+
+Conclusions:
+
+a) What I learned from this lab -
+
+I learned to manage a dynamically allocated array of structures, and how to
+effectively convert files to different filetypes (granted you know the formats).
+I was reminded to pay attention to the small details that wreck programs---I was
+hung up on small issues for days during this lab, resulting in it's late
+submission.
+
+b) Issues and how I fixed them -
+
+My main issues were remembering how pointers operate and how strncpy operates.
+I assumed that strncpy only needed a buffer cap for it's size_t n variable, not
+the length of a string literal. Because of that, I ran across malloc errors that
+I had never seen before in gcc. Once realized my error, getting the data into
+the array was relatively quick. Furthermore, I forgot that when copying a source
+string into a destination string, you need to first malloc space for the
+destination string. I fixed all of these problems by reading man pages and
+talking to other CS majors about the paradigms of C.
+
+c) Improvements that can be made -
+
+As always, I'd prefer the code to be less spaghetti-ish. It's relatively
+organized, but not the easiest to read for other programmers. 

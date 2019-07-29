@@ -1,0 +1,107 @@
+Script started on Thu 16 Nov 2017 07:18:16 PM MST
+]0;root@casey-linuxlaptop: ~/Dropbox/cse113/lab8[01;32mroot@casey-linuxlaptop[00m:[01;34m~/Dropbox/cse113/lab8[00m# gcc -g -Wall linkedlists .c -lm -o linked
+]0;root@casey-linuxlaptop: ~/Dropbox/cse113/lab8[01;32mroot@casey-linuxlaptop[00m:[01;34m~/Dropbox/cse113/lab8[00m# ./line[Kked
+Hello.
+1.  Enter a number
+2.  Delete a number
+3.  Print all numbers
+4.  Tell how many items are in the list
+5.  Find if a number is in the list
+6.  Quit
+Enter an option: 1
+1.  Enter at head?
+2.  Or tail?
+3.  Or middle?
+Enter a sub-option: 1
+Provide a double to enter: 1
+1.  Enter a number
+2.  Delete a number
+3.  Print all numbers
+4.  Tell how many items are in the list
+5.  Find if a number is in the list
+6.  Quit
+Enter an option: 1
+1.  Enter at head?
+2.  Or tail?
+3.  Or middle?
+Enter a sub-option: 2
+Provide a double to enter: 3
+1.  Enter a number
+2.  Delete a number
+3.  Print all numbers
+4.  Tell how many items are in the list
+5.  Find if a number is in the list
+6.  Quit
+Enter an option: 1
+1.  Enter at head?
+2.  Or tail?
+3.  Or middle?
+Enter a sub-option: 3
+Provide a double to enter: 2
+Provide a position: 2
+1.  Enter a number
+2.  Delete a number
+3.  Print all numbers
+4.  Tell how many items are in the list
+5.  Find if a number is in the list
+6.  Quit
+Enter an option: 3
+Node's location is 0x56115c4dc830
+Value of Node's double is 1.000000
+Address of the next pointer is 0x56115c4dc870
+Node's location is 0x56115c4dc870
+Value of Node's double is 2.000000
+Address of the next pointer is 0x56115c4dc850
+Node's location is 0x56115c4dc850
+Value of Node's double is 3.000000
+Address of the next pointer is (nil)
+
+1.  Enter a number
+2.  Delete a number
+3.  Print all numbers
+4.  Tell how many items are in the list
+5.  Find if a number is in the list
+6.  Quit
+Enter an option: 2
+Which number would you like to delete: 2
+1.  Enter a number
+2.  Delete a number
+3.  Print all numbers
+4.  Tell how many items are in the list
+5.  Find if a number is in the list
+6.  Quit
+Enter an option: 4
+The count of nodes is 2
+
+1.  Enter a number
+2.  Delete a number
+3.  Print all numbers
+4.  Tell how many items are in the list
+5.  Find if a number is in the list
+6.  Quit
+Enter an option: 5
+Enter a value (double) to search for: 1
+The specified value is located at memory address 0x56115c4dc830
+
+1.  Enter a number
+2.  Delete a number
+3.  Print all numbers
+4.  Tell how many items are in the list
+5.  Find if a number is in the list
+6.  Quit
+Enter an option: 5
+Enter a value (double) to search for: 2
+That number is not in the list.
+
+1.  Enter a number
+2.  Delete a number
+3.  Print all numbers
+4.  Tell how many items are in the list
+5.  Find if a number is in the list
+6.  Quit
+Enter an option: 6
+See ya!
+]0;root@casey-linuxlaptop: ~/Dropbox/cse113/lab8[01;32mroot@casey-linuxlaptop[00m:[01;34m~/Dropbox/cse113/lab8[00m# exit
+exit
+
+Script done on Thu 16 Nov 2017 07:19:26 PM MST

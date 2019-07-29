@@ -1,0 +1,32 @@
+Casey Haynes
+11/16/2017
+Lab 8
+
+Purpose:
+
+To learn to implement linked lists effectively and correctly. To provide more
+practice with using pointers.
+
+Conclusions:
+
+a) What I learned from this lab:
+
+I learned how to implement a linked list data structure correctly and how to use
+redirection for input, output, and appending. I also learned how to use malloc and
+free inside of functions rather than exclusively in main.
+
+b) Issues and How I fixed them:
+
+I struggled with this lab. By now it's all pretty well put together but development was
+very difficult and took longer than I expected. I had a hard time getting the order
+of operations correct when freeing and adding nodes, as well as with correct order of
+operations in terms of where to put while loops and if statements. Many of my most
+infuriating bugs were usually do to a mismatch of order of operations. I fixed the
+issues by drawing diagrams, running through the code over and over...and over again
+in my head (testing the logic) and by getting help via tutoring in the computer lab.
+
+c) Improvements that can be made:
+
+I'd like to get rid of the compiler warning in the collatz program that says
+the tail pointer is initialized but not used. It is used in printing the linked list,
+but is never called explicitly.

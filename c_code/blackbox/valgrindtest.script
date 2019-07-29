@@ -1,0 +1,137 @@
+Script started on 2018-04-03 22:31:11-0600
+]0;casey@casey-VirtualBox: ~/Dropbox/cse122/blackbox[01;32mcasey@casey-VirtualBox[00m:[01;34m~/Dropbox/cse122/blackbox[00m$ ./main
+Usage: -f function -n size of test data -h HELP
+]0;casey@casey-VirtualBox: ~/Dropbox/cse122/blackbox[01;32mcasey@casey-VirtualBox[00m:[01;34m~/Dropbox/cse122/blackbox[00m$ ./main -f[K[K[K[K[K[K[K[K[Kvalgrind ./main -f 1  -n 5
+==613== Memcheck, a memory error detector
+==613== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==613== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==613== Command: ./main -f 1 -n 5
+==613== 
+Time taken: 0.001 seconds
+CPU-Time elapsed: 1021 ticks
+==613== 
+==613== HEAP SUMMARY:
+==613==     in use at exit: 0 bytes in 0 blocks
+==613==   total heap usage: 1 allocs, 1 frees, 1,024 bytes allocated
+==613== 
+==613== All heap blocks were freed -- no leaks are possible
+==613== 
+==613== For counts of detected and suppressed errors, rerun with: -v
+==613== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;casey@casey-VirtualBox: ~/Dropbox/cse122/blackbox[01;32mcasey@casey-VirtualBox[00m:[01;34m~/Dropbox/cse122/blackbox[00m$ valgrind ./main -f 1  -n 5[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 2  -n 5
+==614== Memcheck, a memory error detector
+==614== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==614== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==614== Command: ./main -f 2 -n 5
+==614== 
+Time taken: 0.001 seconds
+CPU-Time elapsed: 1048 ticks
+==614== 
+==614== HEAP SUMMARY:
+==614==     in use at exit: 0 bytes in 0 blocks
+==614==   total heap usage: 1 allocs, 1 frees, 1,024 bytes allocated
+==614== 
+==614== All heap blocks were freed -- no leaks are possible
+==614== 
+==614== For counts of detected and suppressed errors, rerun with: -v
+==614== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;casey@casey-VirtualBox: ~/Dropbox/cse122/blackbox[01;32mcasey@casey-VirtualBox[00m:[01;34m~/Dropbox/cse122/blackbox[00m$ valgrind ./main -f 2  -n 5[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -[1P[A]0;casey@casey-VirtualBox: ~/Dropbox/cse122/blackbox[01;32mcasey@casey-VirtualBox[00m:[01;34m~/Dropbox/cse122/blackbox[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3 [1@-
+==615== Memcheck, a memory error detector
+==615== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==615== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==615== Command: ./main -f 3 -n 5
+==615== 
+Time taken SORTED: 0.002 seconds
+CPU-Time elapsed SORTED: 2269 ticks
+Time taken RANDOM: 0.000 seconds
+CPU-Time elapsed RANDOM: 238 ticks
+Time taken REVERSE: 0.000 seconds
+CPU-Time elapsed REVERSE: 221 ticks
+==615== 
+==615== HEAP SUMMARY:
+==615==     in use at exit: 0 bytes in 0 blocks
+==615==   total heap usage: 4 allocs, 4 frees, 1,144 bytes allocated
+==615== 
+==615== All heap blocks were freed -- no leaks are possible
+==615== 
+==615== For counts of detected and suppressed errors, rerun with: -v
+==615== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;casey@casey-VirtualBox: ~/Dropbox/cse122/blackbox[01;32mcasey@casey-VirtualBox[00m:[01;34m~/Dropbox/cse122/blackbox[00m$ valgrind ./main -f 3  -n 5[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -[1P[A]0;casey@casey-VirtualBox: ~/Dropbox/cse122/blackbox[01;32mcasey@casey-VirtualBox[00m:[01;34m~/Dropbox/cse122/blackbox[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4 [1@-
+==616== Memcheck, a memory error detector
+==616== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==616== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==616== Command: ./main -f 4 -n 5
+==616== 
+Time taken: 0.004 seconds
+CPU-Time elapsed: 4642 ticks
+==616== 
+==616== HEAP SUMMARY:
+==616==     in use at exit: 0 bytes in 0 blocks
+==616==   total heap usage: 2 allocs, 2 frees, 1,064 bytes allocated
+==616== 
+==616== All heap blocks were freed -- no leaks are possible
+==616== 
+==616== For counts of detected and suppressed errors, rerun with: -v
+==616== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;casey@casey-VirtualBox: ~/Dropbox/cse122/blackbox[01;32mcasey@casey-VirtualBox[00m:[01;34m~/Dropbox/cse122/blackbox[00m$ valgrind ./main -f 4  -n 5[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -[1P[A]0;casey@casey-VirtualBox: ~/Dropbox/cse122/blackbox[01;32mcasey@casey-VirtualBox[00m:[01;34m~/Dropbox/cse122/blackbox[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C5 [1@-
+==619== Memcheck, a memory error detector
+==619== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==619== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==619== Command: ./main -f 5 -n 5
+==619== 
+Time taken: 0.053 seconds
+CPU-Time elapsed: 53123 ticks
+==619== 
+==619== HEAP SUMMARY:
+==619==     in use at exit: 0 bytes in 0 blocks
+==619==   total heap usage: 1 allocs, 1 frees, 1,024 bytes allocated
+==619== 
+==619== All heap blocks were freed -- no leaks are possible
+==619== 
+==619== For counts of detected and suppressed errors, rerun with: -v
+==619== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;casey@casey-VirtualBox: ~/Dropbox/cse122/blackbox[01;32mcasey@casey-VirtualBox[00m:[01;34m~/Dropbox/cse122/blackbox[00m$ valgrind ./main -f 5  -n 5[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -[1P[A]0;casey@casey-VirtualBox: ~/Dropbox/cse122/blackbox[01;32mcasey@casey-VirtualBox[00m:[01;34m~/Dropbox/cse122/blackbox[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C6 [1@-
+==620== Memcheck, a memory error detector
+==620== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==620== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==620== Command: ./main -f 6 -n 5
+==620== 
+Time taken SORTED: 0.001 seconds
+CPU-Time elapsed SORTED: 1846 ticks
+Time taken RANDOM: 0.000 seconds
+CPU-Time elapsed RANDOM: 344 ticks
+Time taken REVERSE: 0.000 seconds
+CPU-Time elapsed REVERSE: 187 ticks
+==620== 
+==620== HEAP SUMMARY:
+==620==     in use at exit: 0 bytes in 0 blocks
+==620==   total heap usage: 4 allocs, 4 frees, 1,144 bytes allocated
+==620== 
+==620== All heap blocks were freed -- no leaks are possible
+==620== 
+==620== For counts of detected and suppressed errors, rerun with: -v
+==620== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;casey@casey-VirtualBox: ~/Dropbox/cse122/blackbox[01;32mcasey@casey-VirtualBox[00m:[01;34m~/Dropbox/cse122/blackbox[00m$ valgrind ./main -f 6  -n 5[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -[1P[A]0;casey@casey-VirtualBox: ~/Dropbox/cse122/blackbox[01;32mcasey@casey-VirtualBox[00m:[01;34m~/Dropbox/cse122/blackbox[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7 [1@-
+==621== Memcheck, a memory error detector
+==621== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==621== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==621== Command: ./main -f 7 -n 5
+==621== 
+Time taken: 0.000 seconds
+CPU-Time elapsed: 952 ticks
+==621== 
+==621== HEAP SUMMARY:
+==621==     in use at exit: 0 bytes in 0 blocks
+==621==   total heap usage: 1 allocs, 1 frees, 1,024 bytes allocated
+==621== 
+==621== All heap blocks were freed -- no leaks are possible
+==621== 
+==621== For counts of detected and suppressed errors, rerun with: -v
+==621== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;casey@casey-VirtualBox: ~/Dropbox/cse122/blackbox[01;32mcasey@casey-VirtualBox[00m:[01;34m~/Dropbox/cse122/blackbox[00m$ exit
+exit
+
+Script done on 2018-04-03 22:33:14-0600
